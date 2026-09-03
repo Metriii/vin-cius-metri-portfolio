@@ -115,7 +115,7 @@ export type Technology = {
 };
 
 export const technologies: Technology[] = [
-  { name: "C#", category: "Backend", icon: "csharp" },
+  { name: "C#", category: "Backend", icon: "dotnet" },
   { name: ".NET", category: "Backend", icon: "dotnet" },
   { name: "ASP.NET Core", category: "Backend", icon: "dotnet" },
   { name: "ASP.NET MVC", category: "Backend", icon: "dotnet" },
@@ -124,7 +124,7 @@ export const technologies: Technology[] = [
   { name: "Angular", category: "Frontend", icon: "angular" },
   { name: "JavaScript", category: "Frontend", icon: "javascript" },
   { name: "HTML", category: "Frontend", icon: "html5" },
-  { name: "CSS", category: "Frontend", icon: "css3" },
+  { name: "CSS", category: "Frontend", icon: "css" },
 
   { name: "PostgreSQL", category: "Banco de dados", icon: "postgresql" },
 
