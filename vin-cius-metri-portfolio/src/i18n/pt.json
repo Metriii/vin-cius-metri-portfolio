@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "technologies": "Tecnologias",
+    "projects": "Projetos",
+    "timeline": "Trajetória",
+    "education": "Formação",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "role": "Desenvolvedor Full-Stack",
+    "description": "Desenvolvedor de software em formação, com foco em ASP.NET Core, Java, Python, Angular, PostgreSQL e SQLite, criando aplicações, APIs e soluções que combinam desenvolvimento de software, dados e novas tecnologias.",
+    "location": "Maceió, Alagoas, Brasil",
+    "ctaProjects": "Ver meus projetos",
+    "ctaContact": "Entre em contato",
+    "viewProjects": "Ver meus projetos",
+    "contactMe": "Entre em contato"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "paragraphs": [
+      "Sou estudante de Sistemas de Informação no CESMAC e desenvolvedor Full-Stack em formação. Tenho foco no desenvolvimento de aplicações web utilizando tecnologias como C#, ASP.NET Core, Java, Python, Angular, PostgreSQL e SQLite.",
+      "Busco constantemente transformar conhecimentos adquiridos nos estudos em projetos práticos, explorando também Inteligência Artificial, dados e automação.",
+      "Meu objetivo é evoluir como desenvolvedor através da construção de soluções reais com Inteligência Artificial e automação, mantendo uma rotina de aprendizado contínuo e experimentação com novas tecnologias."
+    ],
+    "positioning": "Desenvolvedor Full-Stack em formação, focado na construção de aplicações web, APIs e soluções utilizando tecnologias modernas, com especial interesse em backend, Inteligência Artificial, dados e automação.",
+    "highlights": [
+      "Full-Stack Development",
+      "Backend & APIs",
+      "Frontend",
+      "AI & Data",
+      "Automation"
+    ]
+  },
+  "technologies": {
+    "title": "Tecnologias",
+    "subtitle": "Ferramentas e linguagens que utilizo no dia a dia de estudos e projetos."
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Projetos que desenvolvi para transformar conhecimento em soluções práticas.",
+    "featured": "Projeto em destaque",
+    "problem": "Problema",
+    "functionalities": "Principais funcionalidades",
+    "status": "Status",
+    "viewGithub": "Ver GitHub",
+    "viewProject": "Ver projeto",
+    "noProjects": "Nenhum projeto nesta categoria por enquanto.",
+    "filters": {
+      "all": "Todos",
+      "fullstack": "Full-Stack",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "ai": "IA",
+      "data": "Dados",
+      "automation": "Automação"
+    }
+  },
+  "timeline": {
+    "title": "Minha trajetória",
+    "subtitle": "Marcos da minha formação e do meu desenvolvimento técnico."
+  },
+  "education": {
+    "title": "Formações e Experiências",
+    "subtitle": "Formação acadêmica, certificações, cursos e experiências profissionais ao longo da minha evolução técnica.",
+    "education": "Formação",
+    "certifications": "Certificações e Formações",
+    "experiences": "Experiências",
+    "ongoing": "Em andamento"
+  },
+  "github": {
+    "title": "Código aberto e projetos",
+    "text": "Confira meus projetos, estudos e experimentos no GitHub.",
+    "button": "Visitar GitHub"
+  },
+  "contact": {
+    "title": "Vamos construir algo juntos?",
+    "text": "Estou aberto a oportunidades, projetos e conexões na área de tecnologia.",
+    "email": "Enviar e-mail",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "location": "Maceió, Alagoas, Brasil"
+  },
+  "data": {
+    "techCategories": {
+      "Backend": "Backend",
+      "Frontend": "Frontend",
+      "Banco de dados": "Banco de dados",
+      "IA / Dados": "IA / Dados",
+      "Ferramentas e infraestrutura": "Ferramentas e infraestrutura"
+    },
+    "technologies": {
+      "APIs REST": "APIs REST",
+      "Inteligência Artificial": "Inteligência Artificial",
+      "APIs de IA": "APIs de IA"
+    },
+    "projectFeatures": {
+      "Autenticação": "Autenticação",
+      "Reconhecimento facial": "Reconhecimento facial",
+      "Vínculo entre paciente e cuidador": "Vínculo entre paciente e cuidador",
+      "Agenda diária": "Agenda diária",
+      "Controle de medicações": "Controle de medicações",
+      "Agenda anual": "Agenda anual",
+      "Atividades cognitivas": "Atividades cognitivas",
+      "Jogo da memória": "Jogo da memória",
+      "Quebra-cabeça": "Quebra-cabeça",
+      "Associação": "Associação",
+      "Atividades com animais": "Atividades com animais",
+      "Ceração automatizada de laudos técnicos": "Ceração automatizada de laudos técnicos",
+      "Estruturação de informações técnicas": "Estruturação de informações técnicas",
+      "Padronização de documentos": "Padronização de documentos",
+      "Contextos NR-15 e NR-16": "Contextos NR-15 e NR-16",
+      "Organização e consulta de laudos": "Organização e consulta de laudos",
+      "Fluxos automatizados inteligentes": "Fluxos automatizados inteligentes",
+      "Integração entre diferentes serviços": "Integração entre diferentes serviços",
+      "Agentes de IA para execução de tarefas": "Agentes de IA para execução de tarefas",
+      "Redução de processos manuais": "Redução de processos manuais",
+      "Gestão de moradores e unidades": "Gestão de moradores e unidades",
+      "Centralização de informações": "Centralização de informações",
+      "Processos administrativos otimizados": "Processos administrativos otimizados",
+      "Acesso facilitado a dados do condomínio": "Acesso facilitado a dados do condomínio",
+      "Leitura automatizada de cartões de ponto manuscritos": "Leitura automatizada de cartões de ponto manuscritos",
+      "Reconhecimento e extração de horários com OCR": "Reconhecimento e extração de horários com OCR",
+      "Processamento inteligente dos registros": "Processamento inteligente dos registros",
+      "Organização dos dados por funcionário e período": "Organização dos dados por funcionário e período",
+      "Geração automatizada de planilhas Excel": "Geração automatizada de planilhas Excel"
+    },
+    "projectStatuses": {
+      "Em desenvolvimento": "Em desenvolvimento"
+    },
+    "projects": {
+      "AlzheimerAssist": {
+        "description": "Aplicação desenvolvida para auxiliar pessoas com Alzheimer e seus cuidadores, oferecendo recursos para organização da rotina, acompanhamento de atividades e maior autonomia do paciente.",
+        "category": "Software · Inteligência Artificial"
+      },
+      "LaudoPro": {
+        "description": "Solução de automação de processos e documentos técnicos, otimizando a criação e organização de laudos técnicos de forma padronizada e eficiente.",
+        "category": "Automação · Documentos"
+      },
+      "ModoTech": {
+        "description": "Plataforma voltada para utilização de automações e Inteligência Artificial para tornar processos digitais mais inteligentes e eficientes.",
+        "category": "IA · Automação"
+      },
+      "PontoFácil": {
+        "description": "Sistema inteligente de automação de controle de ponto que utiliza Inteligência Artificial e reconhecimento óptico de caracteres (OCR) para digitalizar cartões de ponto manuscritos, extrair registros de horários e gerar planilhas organizadas por funcionário e período.",
+        "category": "OCR · IA · Automação"
+      },
+      "Gestão de Condomínio": {
+        "description": "Plataforma desenvolvida para facilitar a administração e organização de condomínios, centralizando informações e processos administrativos em um único sistema.",
+        "category": "Software · Gestão"
+      }
+    },
+    "timeline": {
+      "0": {
+        "title": "Início da graduação em Sistemas de Informação",
+        "description": "CESMAC"
+      },
+      "1": {
+        "title": "Estágio de Suporte de TI",
+        "description": "Colégio Contato — manutenção de hardware, suporte a iPads, coleta de dados e elaboração de relatórios."
+      },
+      "2": {
+        "title": "Curso de extensão na Argentina",
+        "description": "UNOBA — aprendizado de novo idioma."
+      },
+      "3": {
+        "title": "Aprofundamento em desenvolvimento Full-Stack",
+        "description": "C#, .NET, Angular, PostgreSQL e desenvolvimento de APIs."
+      },
+      "4": {
+        "title": "Freelancer em desenvolvimento",
+        "description": "Sites e aplicações web para clientes."
+      },
+      "5": {
+        "title": "Estágio em Desenvolvimento, Suporte e Infraestrutura",
+        "description": "ADCOL — desenvolvimento, suporte e infraestrutura."
+      },
+      "6": {
+        "title": "Expansão para Inteligência Artificial e automação",
+        "description": "Projetos envolvendo IA, automação e integração de tecnologias."
+      }
+    },
+    "education": {
+      "0": {
+        "course": "Sistemas de Informação",
+        "status": "Em andamento"
+      }
+    },
+    "workExperiences": {
+      "0": {
+        "role": "Suporte de TI",
+        "type": "Estágio",
+        "description": "Manutenção de hardware e suporte técnico. Acompanhamento de aulas com iPads. Coleta de dados e elaboração de relatórios."
+      },
+      "1": {
+        "role": "Desenvolvimento, Suporte e Infraestrutura",
+        "type": "Estágio",
+        "description": "Desenvolvimento, suporte e infraestrutura em empresa de consultoria contábil."
+      },
+      "2": {
+        "role": "Desenvolvedor FullStack",
+        "type": "Freelancer",
+        "description": "Desenvolvimento de sites e aplicações web para clientes."
+      }
+    },
+    "modal": {
+      "aboutProject": "Sobre o projeto",
+      "problem": "Problema",
+      "functionalities": "Principais funcionalidades",
+      "technologies": "Tecnologias",
+      "status": "Status",
+      "viewGithub": "Ver GitHub",
+      "viewProject": "Ver projeto",
+      "mediaComingSoon": "Imagens e vídeos em breve"
+    }
+  }
+}

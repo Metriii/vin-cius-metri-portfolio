@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "about": "About",
+    "technologies": "Technologies",
+    "projects": "Projects",
+    "timeline": "Timeline",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Full-Stack Developer",
+    "description": "Software developer in training, focused on ASP.NET Core, Java, Python, Angular, PostgreSQL and SQLite, creating applications, APIs and solutions that combine software development, data and new technologies.",
+    "location": "Maceió, Alagoas, Brazil",
+    "ctaProjects": "View my projects",
+    "ctaContact": "Get in touch",
+    "viewProjects": "View my projects",
+    "contactMe": "Get in touch"
+  },
+  "about": {
+    "title": "About me",
+    "paragraphs": [
+      "I'm a Information Systems student at CESMAC and a Full-Stack developer in training. I focus on web application development using technologies like C#, ASP.NET Core, Java, Python, Angular, PostgreSQL and SQLite.",
+      "I constantly seek to transform knowledge acquired in my studies into practical projects, also exploring Artificial Intelligence, data and automation.",
+      "My goal is to evolve as a developer through building real solutions with Artificial Intelligence and automation, maintaining a routine of continuous learning and experimentation with new technologies."
+    ],
+    "positioning": "Full-Stack developer in training, focused on building web applications, APIs and solutions using modern technologies, with special interest in backend, Artificial Intelligence, data and automation.",
+    "highlights": [
+      "Full-Stack Development",
+      "Backend & APIs",
+      "Frontend",
+      "AI & Data",
+      "Automation"
+    ]
+  },
+  "technologies": {
+    "title": "Technologies",
+    "subtitle": "Tools and languages I use in my daily studies and projects."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Projects I developed to turn knowledge into practical solutions.",
+    "featured": "Featured project",
+    "problem": "Problem",
+    "functionalities": "Key features",
+    "status": "Status",
+    "viewGithub": "View GitHub",
+    "viewProject": "View project",
+    "noProjects": "No projects in this category yet.",
+    "filters": {
+      "all": "All",
+      "fullstack": "Full-Stack",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "ai": "AI",
+      "data": "Data",
+      "automation": "Automation"
+    }
+  },
+  "timeline": {
+    "title": "My journey",
+    "subtitle": "Milestones in my education and technical development."
+  },
+  "education": {
+    "title": "Education & Experience",
+    "subtitle": "Academic education, certifications, courses and professional experiences throughout my technical evolution.",
+    "education": "Education",
+    "certifications": "Certifications & Courses",
+    "experiences": "Experience",
+    "ongoing": "In progress"
+  },
+  "github": {
+    "title": "Open source & projects",
+    "text": "Check out my projects, studies and experiments on GitHub.",
+    "button": "Visit GitHub"
+  },
+  "contact": {
+    "title": "Let's build something together?",
+    "text": "I'm open to opportunities, projects and connections in the technology field.",
+    "email": "Send email",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "location": "Maceió, Alagoas, Brazil"
+  },
+  "data": {
+    "techCategories": {
+      "Backend": "Backend",
+      "Frontend": "Frontend",
+      "Banco de dados": "Database",
+      "IA / Dados": "AI / Data",
+      "Ferramentas e infraestrutura": "Tools & Infrastructure"
+    },
+    "technologies": {
+      "APIs REST": "REST APIs",
+      "Inteligência Artificial": "Artificial Intelligence",
+      "APIs de IA": "AI APIs"
+    },
+    "projectFeatures": {
+      "Autenticação": "Authentication",
+      "Reconhecimento facial": "Facial recognition",
+      "Vínculo entre paciente e cuidador": "Patient-caregiver link",
+      "Agenda diária": "Daily agenda",
+      "Controle de medicações": "Medication tracking",
+      "Agenda anual": "Annual agenda",
+      "Atividades cognitivas": "Cognitive activities",
+      "Jogo da memória": "Memory game",
+      "Quebra-cabeça": "Puzzle",
+      "Associação": "Matching",
+      "Atividades com animais": "Animal activities",
+      "Ceração automatizada de laudos técnicos": "Automated technical report generation",
+      "Estruturação de informações técnicas": "Technical information structuring",
+      "Padronização de documentos": "Document standardization",
+      "Contextos NR-15 e NR-16": "NR-15 and NR-16 contexts",
+      "Organização e consulta de laudos": "Report organization and lookup",
+      "Fluxos automatizados inteligentes": "Intelligent automated workflows",
+      "Integração entre diferentes serviços": "Integration between different services",
+      "Agentes de IA para execução de tarefas": "AI agents for task execution",
+      "Redução de processos manuais": "Reduction of manual processes",
+      "Gestão de moradores e unidades": "Residents and units management",
+      "Centralização de informações": "Information centralization",
+      "Processos administrativos otimizados": "Optimized administrative processes",
+      "Acesso facilitado a dados do condomínio": "Easy access to condominium data",
+      "Leitura automatizada de cartões de ponto manuscritos": "Automated reading of handwritten time cards",
+      "Reconhecimento e extração de horários com OCR": "Time recognition and extraction with OCR",
+      "Processamento inteligente dos registros": "Intelligent processing of records",
+      "Organização dos dados por funcionário e período": "Data organization by employee and period",
+      "Geração automatizada de planilhas Excel": "Automated Excel spreadsheet generation"
+    },
+    "projectStatuses": {
+      "Em desenvolvimento": "In development"
+    },
+    "projects": {
+      "AlzheimerAssist": {
+        "description": "Application developed to assist Alzheimer's patients and their caregivers, providing resources for routine organization, activity tracking and greater patient autonomy.",
+        "category": "Software · Artificial Intelligence"
+      },
+      "LaudoPro": {
+        "description": "Automation solution for processes and technical documents, optimizing the creation and organization of technical reports in a standardized and efficient way.",
+        "category": "Automation · Documents"
+      },
+      "ModoTech": {
+        "description": "Platform focused on using automations and Artificial Intelligence to make digital processes smarter and more efficient.",
+        "category": "AI · Automation"
+      },
+      "PontoFácil": {
+        "description": "Intelligent time-tracking automation system that uses Artificial Intelligence and optical character recognition (OCR) to digitize handwritten time cards, extract time records and generate spreadsheets organized by employee and period.",
+        "category": "OCR · AI · Automation"
+      },
+      "Gestão de Condomínio": {
+        "description": "Platform developed to facilitate condominium administration and organization, centralizing information and administrative processes in a single system.",
+        "category": "Software · Management"
+      }
+    },
+    "timeline": {
+      "0": {
+        "title": "Started Information Systems degree",
+        "description": "CESMAC"
+      },
+      "1": {
+        "title": "IT Support Internship",
+        "description": "Colégio Contato — hardware maintenance, iPad support, data collection and report preparation."
+      },
+      "2": {
+        "title": "Extension course in Argentina",
+        "description": "UNOBA — learning a new language."
+      },
+      "3": {
+        "title": "Full-Stack development deepening",
+        "description": "C#, .NET, Angular, PostgreSQL and API development."
+      },
+      "4": {
+        "title": "Freelance development",
+        "description": "Websites and web applications for clients."
+      },
+      "5": {
+        "title": "Development, Support & Infrastructure Internship",
+        "description": "ADCOL — development, support and infrastructure."
+      },
+      "6": {
+        "title": "Expansion into Artificial Intelligence and automation",
+        "description": "Projects involving AI, automation and technology integration."
+      }
+    },
+    "education": {
+      "0": {
+        "course": "Information Systems",
+        "status": "In progress"
+      }
+    },
+    "workExperiences": {
+      "0": {
+        "role": "IT Support",
+        "type": "Internship",
+        "description": "Hardware maintenance and technical support. iPad classroom support. Data collection and report preparation."
+      },
+      "1": {
+        "role": "Development, Support & Infrastructure",
+        "type": "Internship",
+        "description": "Development, support and infrastructure at an accounting consulting firm."
+      },
+      "2": {
+        "role": "FullStack Developer",
+        "type": "Freelance",
+        "description": "Website and web application development for clients."
+      }
+    },
+    "modal": {
+      "aboutProject": "About the project",
+      "problem": "Problem",
+      "functionalities": "Key features",
+      "technologies": "Technologies",
+      "status": "Status",
+      "viewGithub": "View GitHub",
+      "viewProject": "View project",
+      "mediaComingSoon": "Images and videos coming soon"
+    }
+  }
+}
