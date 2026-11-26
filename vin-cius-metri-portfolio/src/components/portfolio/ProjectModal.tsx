@@ -5,6 +5,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@/components/ui/dialog";
+import { useEffect, useState } from "react";
 import { ImageIcon } from "lucide-react";
 import type { Project } from "@/data/portfolio";
 import { useTranslatedData } from "@/hooks/use-translated-data";
@@ -17,7 +18,12 @@ interface ProjectModalProps {
 
 export function ProjectModal({ project, open, onOpenChange }: ProjectModalProps) {
   const { translateProject, translateProjectFeature, modal } = useTranslatedData();
+  const [active, setActive] = useState(0);
+  useEffect(() => setActive(0), [project]);
   if (!project) return null;
+
+  const gallery = (project.media ?? []).filter((m) => m.type === "image");
+  const current = gallery[active];
 
   const p = translateProject(project);
 
@@ -30,10 +36,10 @@ export function ProjectModal({ project, open, onOpenChange }: ProjectModalProps)
         </DialogHeader>
 
         <div className="space-y-6 mt-2">
-          {p.image ? (
+          {current || p.image ? (
             <img
-              src={p.image}
-              alt={`Capa do projeto ${p.title}`}
+              src={current?.url ?? p.image}
+              alt={current?.alt ?? `Capa do projeto ${p.title}`}
               width={1280}
               height={720}
               className="w-full rounded-xl object-cover"
@@ -45,6 +51,26 @@ export function ProjectModal({ project, open, onOpenChange }: ProjectModalProps)
               <p className="text-sm text-muted-foreground/60">{modal.mediaComingSoon}</p>
             </div>
           )}
+
+          {gallery.length > 1 ? (
+            <ul className="grid grid-cols-4 gap-2" aria-label="Galeria">
+              {gallery.map((m, i) => (
+                <li key={m.url}>
+                  <button
+                    type="button"
+                    onClick={() => setActive(i)}
+                    aria-label={m.alt ?? `Imagem ${i + 1}`}
+                    aria-pressed={i === active}
+                    className={`block w-full overflow-hidden rounded-md border-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
+                      i === active ? "border-accent" : "border-border opacity-70 hover:opacity-100"
+                    }`}
+                  >
+                    <img src={m.url} alt="" className="aspect-video w-full object-cover" loading="lazy" />
+                  </button>
+                </li>
+              ))}
+            </ul>
+          ) : null}
 
           <div>
             <h4 className="text-sm font-medium text-foreground mb-2">{modal.aboutProject}</h4>

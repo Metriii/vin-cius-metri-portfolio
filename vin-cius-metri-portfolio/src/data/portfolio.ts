@@ -1,5 +1,20 @@
 import alzheimerAssistCover from "@/assets/alzheimerassist.jpg";
 import profilePhoto from "@/assets/vinicius-metri.jpg";
+import alzCuidador from "@/assets/projects/alzheimerassist-cuidador.webp";
+import alzAtividades from "@/assets/projects/alzheimerassist-atividades.webp";
+import alzJogo from "@/assets/projects/alzheimerassist-jogo-memoria.webp";
+import alzLogin from "@/assets/projects/alzheimerassist-login.webp";
+import laudoForm from "@/assets/projects/laudopro-form.webp";
+import laudoHistorico from "@/assets/projects/laudopro-historico.webp";
+import modoHome from "@/assets/projects/modotech-home.webp";
+import modoProdutos from "@/assets/projects/modotech-produtos.webp";
+import pontoHome from "@/assets/projects/pontofacil-home.webp";
+import pontoLogin from "@/assets/projects/pontofacil-login.webp";
+import gestaoDashboard from "@/assets/projects/gestao-dashboard.webp";
+import gestaoLogin from "@/assets/projects/gestao-login.webp";
+import gestaoMoradores from "@/assets/projects/gestao-moradores.webp";
+import gestaoReservas from "@/assets/projects/gestao-reservas.webp";
+import esp32Player from "@/assets/projects/esp32.webp";
 
 /**
  * ARQUIVO CENTRAL DE CONTEÚDO DO PORTFÓLIO
@@ -210,6 +225,12 @@ export const projects: Project[] = [
     description:
       "Aplicação desenvolvida para auxiliar pessoas com Alzheimer e seus cuidadores, oferecendo recursos para organização da rotina, acompanhamento de atividades e maior autonomia do paciente.",
     image: alzheimerAssistCover,
+    media: [
+      { type: "image", url: alzLogin, alt: "Tela de login do AlzheimerAssist" },
+      { type: "image", url: alzCuidador, alt: "Painel do cuidador" },
+      { type: "image", url: alzAtividades, alt: "Atividades cognitivas" },
+      { type: "image", url: alzJogo, alt: "Jogo da memória" },
+    ],
     technologies: ["Angular", "C#", ".NET", "PostgreSQL", "APIs REST"],
     category: "Software · Inteligência Artificial",
     filters: ["Full-Stack", "Backend", "Frontend", "IA"],
@@ -233,6 +254,11 @@ export const projects: Project[] = [
     title: "LaudoPro",
     description:
       "Solução de automação de processos e documentos técnicos, otimizando a criação e organização de laudos técnicos de forma padronizada e eficiente.",
+    image: laudoForm,
+    media: [
+      { type: "image", url: laudoForm, alt: "Formulário de preenchimento do laudo" },
+      { type: "image", url: laudoHistorico, alt: "Histórico de laudos periciais" },
+    ],
     technologies: ["C#", ".NET", "ASP.NET", "PostgreSQL"],
     category: "Automação · Documentos",
     filters: ["Backend", "Automação"],
@@ -248,6 +274,11 @@ export const projects: Project[] = [
     title: "ModoTech",
     description:
       "Plataforma voltada para utilização de automações e Inteligência Artificial para tornar processos digitais mais inteligentes e eficientes.",
+    image: modoHome,
+    media: [
+      { type: "image", url: modoHome, alt: "Página inicial do ModoTech" },
+      { type: "image", url: modoProdutos, alt: "Página de produtos do ModoTech" },
+    ],
     technologies: ["Inteligência Artificial", "Agentes de IA", "Automação", "APIs", "Docker"],
     category: "IA · Automação",
     filters: ["IA", "Automação"],
@@ -262,6 +293,11 @@ export const projects: Project[] = [
     title: "PontoFácil",
     description:
       "Sistema inteligente de automação de controle de ponto que utiliza Inteligência Artificial e reconhecimento óptico de caracteres (OCR) para digitalizar cartões de ponto manuscritos, extrair registros de horários e gerar planilhas organizadas por funcionário e período.",
+    image: pontoHome,
+    media: [
+      { type: "image", url: pontoHome, alt: "Central de ponto do PontoFácil" },
+      { type: "image", url: pontoLogin, alt: "Tela de acesso do PontoFácil" },
+    ],
     technologies: ["Inteligência Artificial", "OCR", "Python", "Automação", "JSON", "Excel"],
     category: "OCR · IA · Automação",
     filters: ["IA", "Automação", "Dados"],
@@ -277,6 +313,13 @@ export const projects: Project[] = [
     title: "Gestão de Condomínio",
     description:
       "Plataforma desenvolvida para facilitar a administração e organização de condomínios, centralizando informações e processos administrativos em um único sistema.",
+    image: gestaoDashboard,
+    media: [
+      { type: "image", url: gestaoDashboard, alt: "Dashboard do CondoGestor" },
+      { type: "image", url: gestaoMoradores, alt: "Lista de moradores" },
+      { type: "image", url: gestaoReservas, alt: "Reservas de áreas comuns" },
+      { type: "image", url: gestaoLogin, alt: "Tela de acesso ao sistema" },
+    ],
     technologies: ["Desenvolvimento Web", "Banco de Dados", "APIs", "Sistemas de Gestão"],
     category: "Software · Gestão",
     filters: ["Full-Stack", "Backend"],
@@ -286,6 +329,23 @@ export const projects: Project[] = [
       "Processos administrativos otimizados",
       "Acesso facilitado a dados do condomínio",
     ],
+  },
+  {
+    title: "ESP32 Music Player",
+    description:
+      "Projeto de IoT em que uma ESP32 toca músicas em 3 buzzers passivos e hospeda a própria página web: pelo navegador do PC ou celular é possível escolher a música, iniciar, pausar e ajustar o volume, com ranking das músicas mais tocadas.",
+    image: esp32Player,
+    media: [{ type: "image", url: esp32Player, alt: "Interface web do ESP32 Music Player" }],
+    technologies: ["C++", "ESP32", "PlatformIO", "JavaScript", "Firebase"],
+    category: "IoT · Embarcados",
+    filters: ["Full-Stack", "Frontend"],
+    features: [
+      "Servidor HTTP e API hospedados na própria placa",
+      "Controle de música, pausa e volume pelo navegador",
+      "Player de ritmos em 3 buzzers passivos",
+      "Ranking de músicas mais tocadas (Firebase)",
+    ],
+    github: "https://github.com/Metriii/ESP32_MUSIC",
   },
 ];
 
