@@ -17,6 +17,7 @@ import gestaoReservas from "@/assets/projects/gestao-reservas.webp";
 import esp32Player from "@/assets/projects/esp32.webp";
 import esp32Montagem from "@/assets/projects/esp32-montagem.webp";
 import esp32Detalhe from "@/assets/projects/esp32-detalhe.webp";
+import esp32Topo from "@/assets/projects/esp32-topo.webp";
 
 /**
  * ARQUIVO CENTRAL DE CONTEÚDO DO PORTFÓLIO
@@ -340,6 +341,7 @@ export const projects: Project[] = [
     media: [
       { type: "image", url: esp32Montagem, alt: "Montagem da ESP32 com os 3 buzzers na protoboard" },
       { type: "image", url: esp32Detalhe, alt: "Detalhe das ligações da ESP32 e dos buzzers" },
+      { type: "image", url: esp32Topo, alt: "Vista de cima da montagem na protoboard" },
       { type: "image", url: esp32Player, alt: "Interface web do ESP32 Music Player" },
     ],
     technologies: ["C++", "ESP32", "PlatformIO", "JavaScript", "Firebase"],
