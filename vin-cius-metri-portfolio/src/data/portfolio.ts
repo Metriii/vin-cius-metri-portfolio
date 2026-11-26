@@ -15,6 +15,8 @@ import gestaoLogin from "@/assets/projects/gestao-login.webp";
 import gestaoMoradores from "@/assets/projects/gestao-moradores.webp";
 import gestaoReservas from "@/assets/projects/gestao-reservas.webp";
 import esp32Player from "@/assets/projects/esp32.webp";
+import esp32Montagem from "@/assets/projects/esp32-montagem.webp";
+import esp32Detalhe from "@/assets/projects/esp32-detalhe.webp";
 
 /**
  * ARQUIVO CENTRAL DE CONTEÚDO DO PORTFÓLIO
@@ -334,8 +336,12 @@ export const projects: Project[] = [
     title: "ESP32 Music Player",
     description:
       "Projeto de IoT em que uma ESP32 toca músicas em 3 buzzers passivos e hospeda a própria página web: pelo navegador do PC ou celular é possível escolher a música, iniciar, pausar e ajustar o volume, com ranking das músicas mais tocadas.",
-    image: esp32Player,
-    media: [{ type: "image", url: esp32Player, alt: "Interface web do ESP32 Music Player" }],
+    image: esp32Montagem,
+    media: [
+      { type: "image", url: esp32Montagem, alt: "Montagem da ESP32 com os 3 buzzers na protoboard" },
+      { type: "image", url: esp32Detalhe, alt: "Detalhe das ligações da ESP32 e dos buzzers" },
+      { type: "image", url: esp32Player, alt: "Interface web do ESP32 Music Player" },
+    ],
     technologies: ["C++", "ESP32", "PlatformIO", "JavaScript", "Firebase"],
     category: "IoT · Embarcados",
     filters: ["Full-Stack", "Frontend"],
