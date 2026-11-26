@@ -1,0 +1,8 @@
+**/node_modules
+**/.output
+**/.wrangler
+**/.git
+**/dist
+**/*.log
+.dockerignore
+Dockerfile
