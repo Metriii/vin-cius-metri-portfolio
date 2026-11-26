@@ -234,7 +234,7 @@ export const projects: Project[] = [
     ],
     technologies: ["Angular", "C#", ".NET", "PostgreSQL", "APIs REST"],
     category: "Software · Inteligência Artificial",
-    filters: ["Full-Stack", "Backend", "Frontend", "IA"],
+    filters: ["Full-Stack", "Backend", "Frontend"],
     features: [
       "Autenticação",
       "Reconhecimento facial",
@@ -280,7 +280,7 @@ export const projects: Project[] = [
     ],
     technologies: ["Inteligência Artificial", "Agentes de IA", "Automação", "APIs", "Docker"],
     category: "IA · Automação",
-    filters: ["IA", "Automação"],
+    filters: ["Full-Stack", "Backend", "Frontend", "IA", "Dados", "Automação"],
     features: [
       "Fluxos automatizados inteligentes",
       "Integração entre diferentes serviços",
@@ -299,7 +299,7 @@ export const projects: Project[] = [
     ],
     technologies: ["Inteligência Artificial", "OCR", "Python", "Automação", "JSON", "Excel"],
     category: "OCR · IA · Automação",
-    filters: ["IA", "Automação", "Dados"],
+    filters: ["Full-Stack", "Backend", "Frontend", "IA", "Dados", "Automação"],
     features: [
       "Leitura automatizada de cartões de ponto manuscritos",
       "Reconhecimento e extração de horários com OCR",
@@ -343,7 +343,7 @@ export const projects: Project[] = [
     ],
     technologies: ["C++", "ESP32", "PlatformIO", "JavaScript", "Firebase"],
     category: "IoT · Embarcados",
-    filters: ["Full-Stack", "Frontend"],
+    filters: ["Full-Stack", "Backend", "Frontend"],
     features: [
       "Servidor HTTP e API hospedados na própria placa",
       "Controle de música, pausa e volume pelo navegador",
