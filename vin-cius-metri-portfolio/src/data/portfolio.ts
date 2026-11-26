@@ -261,7 +261,7 @@ export const projects: Project[] = [
     ],
     technologies: ["C#", ".NET", "ASP.NET", "PostgreSQL"],
     category: "Automação · Documentos",
-    filters: ["Backend", "Automação"],
+    filters: ["Full-Stack", "Backend", "Frontend", "Dados", "Automação"],
     features: [
       "Ceração automatizada de laudos técnicos",
       "Estruturação de informações técnicas",
