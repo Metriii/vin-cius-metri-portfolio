@@ -31,7 +31,7 @@ export function ProjectModal({ project, open, onOpenChange }: ProjectModalProps)
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-2xl max-h-[85vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle className="text-2xl pr-8">{p.title}</DialogTitle>
+          <DialogTitle className="text-2xl pr-8 text-foreground">{p.title}</DialogTitle>
           <DialogDescription>{p.category}</DialogDescription>
         </DialogHeader>
 

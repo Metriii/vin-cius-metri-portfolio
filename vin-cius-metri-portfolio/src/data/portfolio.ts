@@ -1,4 +1,3 @@
-import alzheimerAssistCover from "@/assets/alzheimerassist.jpg";
 import profilePhoto from "@/assets/vinicius-metri.jpg";
 import alzCuidador from "@/assets/projects/alzheimerassist-cuidador.webp";
 import alzAtividades from "@/assets/projects/alzheimerassist-atividades.webp";
@@ -6,7 +5,6 @@ import alzJogo from "@/assets/projects/alzheimerassist-jogo-memoria.webp";
 import alzLogin from "@/assets/projects/alzheimerassist-login.webp";
 import laudoForm from "@/assets/projects/laudopro-form.webp";
 import laudoHistorico from "@/assets/projects/laudopro-historico.webp";
-import modoHome from "@/assets/projects/modotech-home.webp";
 import modoProdutos from "@/assets/projects/modotech-produtos.webp";
 import pontoHome from "@/assets/projects/pontofacil-home.webp";
 import pontoLogin from "@/assets/projects/pontofacil-login.webp";
@@ -227,10 +225,10 @@ export const projects: Project[] = [
     title: "AlzheimerAssist",
     description:
       "Aplicação desenvolvida para auxiliar pessoas com Alzheimer e seus cuidadores, oferecendo recursos para organização da rotina, acompanhamento de atividades e maior autonomia do paciente.",
-    image: alzheimerAssistCover,
+    image: alzCuidador,
     media: [
-      { type: "image", url: alzLogin, alt: "Tela de login do AlzheimerAssist" },
       { type: "image", url: alzCuidador, alt: "Painel do cuidador" },
+      { type: "image", url: alzLogin, alt: "Tela de login do AlzheimerAssist" },
       { type: "image", url: alzAtividades, alt: "Atividades cognitivas" },
       { type: "image", url: alzJogo, alt: "Jogo da memória" },
     ],
@@ -277,9 +275,8 @@ export const projects: Project[] = [
     title: "ModoTech",
     description:
       "Plataforma voltada para utilização de automações e Inteligência Artificial para tornar processos digitais mais inteligentes e eficientes.",
-    image: modoHome,
+    image: modoProdutos,
     media: [
-      { type: "image", url: modoHome, alt: "Página inicial do ModoTech" },
       { type: "image", url: modoProdutos, alt: "Página de produtos do ModoTech" },
     ],
     technologies: ["Inteligência Artificial", "Agentes de IA", "Automação", "APIs", "Docker"],
@@ -337,12 +334,12 @@ export const projects: Project[] = [
     title: "ESP32 Music Player",
     description:
       "Projeto de IoT em que uma ESP32 toca músicas em 3 buzzers passivos e hospeda a própria página web: pelo navegador do PC ou celular é possível escolher a música, iniciar, pausar e ajustar o volume, com ranking das músicas mais tocadas.",
-    image: esp32Montagem,
+    image: esp32Player,
     media: [
+      { type: "image", url: esp32Player, alt: "Interface web do ESP32 Music Player" },
       { type: "image", url: esp32Montagem, alt: "Montagem da ESP32 com os 3 buzzers na protoboard" },
       { type: "image", url: esp32Detalhe, alt: "Detalhe das ligações da ESP32 e dos buzzers" },
       { type: "image", url: esp32Topo, alt: "Vista de cima da montagem na protoboard" },
-      { type: "image", url: esp32Player, alt: "Interface web do ESP32 Music Player" },
     ],
     technologies: ["C++", "ESP32", "PlatformIO", "JavaScript", "Firebase"],
     category: "IoT · Embarcados",
