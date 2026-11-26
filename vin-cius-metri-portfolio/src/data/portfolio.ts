@@ -248,7 +248,6 @@ export const projects: Project[] = [
       "Associação",
       "Atividades com animais",
     ],
-    featured: true,
     status: "Em desenvolvimento",
   },
   {
@@ -320,6 +319,7 @@ export const projects: Project[] = [
       { type: "image", url: gestaoReservas, alt: "Reservas de áreas comuns" },
       { type: "image", url: gestaoLogin, alt: "Tela de acesso ao sistema" },
     ],
+    featured: true,
     technologies: ["Desenvolvimento Web", "Banco de Dados", "APIs", "Sistemas de Gestão"],
     category: "Software · Gestão",
     filters: ["Full-Stack", "Backend"],
