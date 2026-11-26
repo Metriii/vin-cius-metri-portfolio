@@ -232,7 +232,6 @@ export const projects: Project[] = [
       { type: "image", url: alzAtividades, alt: "Atividades cognitivas" },
       { type: "image", url: alzJogo, alt: "Jogo da memória" },
     ],
-    github: "https://github.com/Metriii/AlzheimerAssist",
     technologies: ["Angular", "C#", ".NET", "PostgreSQL", "APIs REST"],
     category: "Software · Inteligência Artificial",
     filters: ["Full-Stack", "Backend", "Frontend"],
@@ -260,7 +259,6 @@ export const projects: Project[] = [
       { type: "image", url: laudoForm, alt: "Formulário de preenchimento do laudo" },
       { type: "image", url: laudoHistorico, alt: "Histórico de laudos periciais" },
     ],
-    github: "https://github.com/Metriii/laudopro-final",
     technologies: ["C#", ".NET", "ASP.NET", "PostgreSQL"],
     category: "Automação · Documentos",
     filters: ["Full-Stack", "Backend", "Frontend", "Dados", "Automação"],
@@ -280,7 +278,6 @@ export const projects: Project[] = [
     media: [
       { type: "image", url: modoProdutos, alt: "Página de produtos do ModoTech" },
     ],
-    github: "https://github.com/Metriii/Modo-Tech",
     technologies: ["Inteligência Artificial", "Agentes de IA", "Automação", "APIs", "Docker"],
     category: "IA · Automação",
     filters: ["Full-Stack", "Backend", "Frontend", "IA", "Dados", "Automação"],
@@ -300,7 +297,6 @@ export const projects: Project[] = [
       { type: "image", url: pontoHome, alt: "Central de ponto do PontoFácil" },
       { type: "image", url: pontoLogin, alt: "Tela de acesso do PontoFácil" },
     ],
-    github: "https://github.com/Metriii/PontoFacil-0.4v",
     technologies: ["Inteligência Artificial", "OCR", "Python", "Automação", "JSON", "Excel"],
     category: "OCR · IA · Automação",
     filters: ["Full-Stack", "Backend", "Frontend", "IA", "Dados", "Automação"],
@@ -324,7 +320,6 @@ export const projects: Project[] = [
       { type: "image", url: gestaoLogin, alt: "Tela de acesso ao sistema" },
     ],
     featured: true,
-    github: "https://github.com/Metriii/gestao-condominio",
     technologies: ["Desenvolvimento Web", "Banco de Dados", "APIs", "Sistemas de Gestão"],
     category: "Software · Gestão",
     filters: ["Full-Stack", "Backend"],
@@ -355,7 +350,6 @@ export const projects: Project[] = [
       "Player de ritmos em 3 buzzers passivos",
       "Ranking de músicas mais tocadas (Firebase)",
     ],
-    github: "https://github.com/Metriii/ESP32_MUSIC",
   },
 ];
 
